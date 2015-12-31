@@ -32,7 +32,7 @@ y = pcm(2,3,20,3)
 
 
 If any doubt, confusion or feedback please contact me
-### Nikesh Bajaj
-### http://nikeshbajaj.in
-### bajaj.nikkey@gmail.com
-### PhD Scholar, University of Genova and Queen Mary University of London
+#### Nikesh Bajaj
+#### http://nikeshbajaj.in
+#### bajaj.nikkey@gmail.com
+#### PhD Scholar, University of Genova and Queen Mary University of London
