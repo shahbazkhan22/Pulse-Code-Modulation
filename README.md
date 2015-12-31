@@ -3,11 +3,11 @@
 
 #### Step 1.  Save "pcm.m" in your current directory of MATLAB
 
-#### Step 2. define parameters  A, fm, fs, n  as rquired e.g. A=2, fm=3, fs=20, n=3
+#### Step 2. define parameters  A, fm, fs, n  as rquired e.g. ` A=2, fm=3, fs=20, n=3 `
 
-#### Step 3. then write  [y Bitrate MSE Stepsize QNoise]=pcm(A,fm,fs,n)
+#### Step 3. then write  ` [y Bitrate MSE Stepsize QNoise] = pcm(A,fm,fs,n)`
 
-#### Or After step 1 just write [y Bitrate MSE Stepsize QNoise]=pcm(2,3,20,3) in command window
+#### Or After step 1 just write ` [y Bitrate MSE Stepsize QNoise]=pcm(2,3,20,3) ` in command window
 
 Explainantion of Parameters is as follow
 
@@ -26,9 +26,9 @@ MSE= Mean Squar error
 QNoise = Quantization Noise
 
 ##### Example 
-[y Bitrate MSE Stepsize QNoise]=pcm(2,3,20,3)
+` [y Bitrate MSE Stepsize QNoise] = pcm(2,3,20,3)`
 or
-y = pcm(2,3,20,3)
+` y = pcm(2,3,20,3) `
 
 ####===========================================
 ###### If any doubt, confusion or feedback please contact
