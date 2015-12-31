@@ -9,7 +9,8 @@
 
 #### Or After step 1 just write ` [y Bitrate MSE Stepsize QNoise]=pcm(2,3,20,3) ` in command window
 
-Explainantion of Parameters is as follow
+### Explainantion 
+Parameters is as follow
 
 A  = amplitute of cosine signal
 
@@ -25,7 +26,7 @@ MSE= Mean Squar error
 
 QNoise = Quantization Noise
 
-##### Example 
+### Example 
 ` [y Bitrate MSE Stepsize QNoise] = pcm(2,3,20,3)`
 or
 ` y = pcm(2,3,20,3) `
