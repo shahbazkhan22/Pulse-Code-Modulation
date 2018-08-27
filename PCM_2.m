@@ -1,3 +1,15 @@
+% Am = amplitute of sine wave
+% ts = sampling time
+% fs = sampling frequency
+% tmax = maximum time
+% step = number of steps for quantizing the signal
+% level = upper and lower bound of the meassage signal
+% d = value of each step
+%%===============================================
+% MD SHAHBAZ KHAN
+% B. Tech (3rd year), ECE
+% Delhi Technological University, Delhi-110042
+%%===============================================
 ts = 0.01
 tmax = 30
 Am  = 5
@@ -50,3 +62,4 @@ grid on
 
 z = y - min(y);
 z = dec2bin(z);
+display(z)
